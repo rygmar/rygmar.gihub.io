@@ -5,8 +5,45 @@
     <title>Document</title>
 </head>
 <body>
-    <p>Paragraf 1</p>
-    <p>Drugi Paragraf</p>
-    <p>Paragraf trzeci</p>
+    <div id="container">
+        <form>
+            
+            <label for="imię">imię</label>
+            <input type="text" name="Imię">
+            
+            <br><br>
+            Nazwisko
+            <input type="text" name=nazwisko>
+            <br><br>
+            e-mail
+            <input type="email" name="email">
+            <br><br>
+            Telefon
+            <input type="tel" name="telefon">
+            <br><br>
+            <label for="miasto">miasto</label>
+            <select id="miasto" name="miasto">
+                <option value="Kraków">Kraków</option>
+                <option value="Warszawa">Warszawa</option>
+                <option value="Gdańsk">Gdańsk</option>
+            </select>
+            <br><br>
+            płeć <br>
+            <fieldset>
+                <legend>Wybierz płeć</legend>
+                    <label for="płeć">Męzczyzna<input type="radio" name="płeć"></label>
+                    <label for="płeć">Kobieta<input type="radio" name="płeć"></label>
+            </fieldset>
+            <br><br>
+            <input type="checkbox" name="zgoda" id="zgoda" required>
+            Zapoznałem się z informacjami i zgadzam się na przesłanie danych osobowych
+            <br><br>
+            Wiadomość: 
+            <br>
+            <textarea name="wiaomosc" cols="30" rows="10"></textarea>
+
+        </form>
+
+    </div>
 </body>
 </html>
