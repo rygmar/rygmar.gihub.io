@@ -17,11 +17,11 @@ button{
     justify-content: center;
 }
 
-.my-skills{
-    width: 200px;
-    height: 120px;
+.my-skills, .faq{
+    width: 15vw;
+    height: 10vh;
     border-radius: 8px; 
-    font-size: 35px;   
+    font-size: 1.8vw;   
 }
 
 .my-skills:hover, .faq:hover{
@@ -31,11 +31,7 @@ button{
 }
 
 .faq{
-    width: 200px;
-    height: 120px;
-    border-radius: 8px;
     margin: 20px;
-    font-size: 35px;
 }
 
 
