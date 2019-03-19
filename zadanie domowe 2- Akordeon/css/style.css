@@ -1,0 +1,54 @@
+
+.header{
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    height:  50px;
+    margin-bottom: 30px;
+    margin-top: 50px;
+    
+}
+
+.header-text{
+    
+    font-size: 35px;
+    color: grey;
+    font-weight: lighter;
+    border-bottom: 1px solid rgb(226, 225, 225);    
+    height: 100%;
+    text-align: center;
+    width: 30%;
+    margin: 0;
+}
+
+.accordion{
+    width: 80vw;
+    margin: auto;
+    text-align: center;
+}
+
+.btn{
+    color: orange;
+}
+
+
+
+.card-body{
+    color: rgb(151, 151, 151);    
+}
+
+.btn:hover{
+    color: orange;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#back{
+    position: absolute;
+    right: 2px;
+    top: 2px;
+    color: orange;
+    background: rgb(243, 243, 243);
+    border-radius: 3px;
+    font-size: 0.8rem;
+}
